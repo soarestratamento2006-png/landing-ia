@@ -109,15 +109,9 @@ aparecer();
 // BOTÕES "COMPRAR"
 // ===============================
 
-const botoes = document.querySelectorAll(".btn");
 
-botoes.forEach((botao)=>{
 
-    botao.addEventListener("click",(e)=>{
-
-        e.preventDefault();
-
-        alert("Aqui você colocará o link da Hotmart, Kiwify ou Mercado Pago.");
+        alert("https://pay.kiwify.com.br/GS8DMAl.");
 
     });
 
